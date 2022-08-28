@@ -1,0 +1,15 @@
+:root {
+--primary-font: 'Noto Serif Telugu', serif;
+--secondary-font: font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    background: rgb(153, 171, 151);
+    font-family: var(--primary-font);
+    font-size: 100px;
+}
+h2 {
+    font-family: var(--secondary-font);
+    font-size: 50px;
+    font-weight: 300;
+}
