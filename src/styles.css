@@ -1,15 +1,40 @@
 :root {
---primary-font: 'Noto Serif Telugu', serif;
---secondary-font: font-family: 'Inter', sans-serif;
+  --primary-font: "Noto Serif Telugu", serif;
+  --secondary-font: "Inter", sans-serif;
+  --primary-color: #f8e5cd;
+}
+
+body {
+  font-family: var(--secondary-font);
 }
 
 h1 {
-    background: rgb(153, 171, 151);
-    font-family: var(--primary-font);
-    font-size: 100px;
+  font-family: var(--primary-font);
+  font-size: 100px;
 }
+
 h2 {
-    font-family: var(--secondary-font);
-    font-size: 50px;
-    font-weight: 300;
+  font-family: var(--secondary-font);
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.hero {
+  background: var(--primary-color);
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.hero p {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+}
+
+.btn-branding {
+  background: rgb(71, 58, 172);
+  border-radius: 4;
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  line-height: 2;
 }
