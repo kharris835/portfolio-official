@@ -97,6 +97,35 @@ p {
   list-style: none;
 }
 
+.logo {
+  max-width: 100px;
+}
+
+.logo-name {
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 15px;
+}
+
+nav a:hover,
+nav li a.active {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav ul {
+  padding: 0;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 50px;
