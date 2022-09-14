@@ -1,8 +1,8 @@
 :root {
   --primary-font: "Noto Serif Telugu", serif;
   --secondary-font: "Inter", sans-serif;
-  --primary-color: #f8e5cd;
-  --secondary-color: rgb(71, 58, 172);
+  --primary-color: #ffbcb7;
+  --secondary-color: #1e7a8c;
   --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -52,7 +52,7 @@ p {
 }
 
 .btn-branding-outline {
-  color: rgb(71, 58, 172);
+  color: var(--secondary-color);
   border-radius: 4;
   border: 1px solid var(--secondary-color);
   background: white;
@@ -98,11 +98,7 @@ p {
 }
 
 .logo {
-  max-width: 100px;
-}
-
-.logo-name {
-  font-size: 20px;
+  max-height: 36px;
 }
 
 nav a {
