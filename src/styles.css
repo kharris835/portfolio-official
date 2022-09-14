@@ -100,6 +100,9 @@ p {
 .logo {
   max-height: 36px;
 }
+.contact-link {
+  color: var(--secondary-color);
+}
 
 nav a {
   text-decoration: none;
