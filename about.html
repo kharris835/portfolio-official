@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kelsie Harris | Developer</title>
+    <meta
+      name="description"
+      content="Kelsie is a self-taught, front-end developer, based in Boulder, Colorado."
+    />
+    <title>Kelsie Harris | About Me</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -38,22 +42,30 @@
               src="images/logo.png"
               alt="Flower logo"
               class="logo d-none d-lg-block"
+              title="Homepage"
             />
             <img
               src="images/icon.png"
               alt="Flower icon"
               class="logo d-block d-lg-none"
+              title="Homepage"
             />
           </a>
           <ul class="m-0">
             <li>
-              <a href="/">Home</a>
+              <a href="/" title="Homepage">Home</a>
             </li>
             <li>
-              <a href="/about.html" class="active">About</a>
+              <a href="/about.html" class="active" title="About Kelsie"
+                >About</a
+              >
             </li>
-            <li><a href="/work.html">Work</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/work.html" title="Kelsie's Work">Work</a></li>
+            <li>
+              <a href="/contact.html" title="Kelsie's Contact Information"
+                >Contact</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -78,7 +90,7 @@
               <li>> JavaScript</li>
               <li>> React</li>
             </ul>
-            <a href="/work.html" class="btn btn-branding shadow mt-3 mb-3"
+            <a href="/work.html" class="btn btn-branding shadow mt-3 mb-3" title="Project Page Link"
               >View all projects</a
             >
           </div>
@@ -86,19 +98,31 @@
         <div class="col-md-6 justify-content-center d-flex">
           <img
             src="images/me.png"
-            alt="Kelsie Harris rowing"
+            alt="Kelsie Harris Rowing"
             class="personal-image"
           />
         </div>
       </div>
       <footer class="text-center mb-5">
-        <a href="mailto:kharris835@gmail.com" target="_blank">
+        <a
+          href="mailto:kharris835@gmail.com"
+          target="_blank"
+          title="Email Kelsie"
+        >
           <i class="fa-solid fa-envelope circle-icon"></i
         ></a>
-        <a href="https://github.com/kharris835" target="_blank">
+        <a
+          href="https://github.com/kharris835"
+          target="_blank"
+          title="GitHub Profile"
+        >
           <i class="fa-brands fa-github fa-circle circle-icon"></i
         ></a>
-        <a href="https://www.linkedin.com/in/kelsieharris/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/kelsieharris/"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
           <i class="fa-brands fa-linkedin circle-icon"></i>
         </a>
         <div class="footer">
@@ -107,6 +131,7 @@
               href="mailto:kharris835@gmail.com"
               target="_blank"
               class="text-decoration-none"
+              title="Email Kelsie"
               >kharris835@gmail.com</a
             >
           </div>
@@ -116,6 +141,7 @@
               href="https://github.com/kharris835/portfolio-official"
               target="_blank"
               class="text-decoration-none m-0"
+              title="GitHub Profile"
             >
               open-source
             </a>
